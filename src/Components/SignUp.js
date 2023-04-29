@@ -23,6 +23,8 @@ const SignUp = () => {
          localStorage.setItem("token" , JSON.stringify(result.auth));
          navigate('/');
     }
+  
+  
 
 
   return (  
